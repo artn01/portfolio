@@ -9,7 +9,7 @@ function App() {
       <NavBar></NavBar>
       <Intro></Intro>
       <Skills></Skills>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 }
