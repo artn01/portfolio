@@ -56,6 +56,12 @@
     border: none;
     border-radius: 2rem;
     font-size: 300;
+    letter-spacing: 1px;
+    font-size: medium;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.25rem;
+    margin-right: 1rem; */
   }
 
   .btnImg {

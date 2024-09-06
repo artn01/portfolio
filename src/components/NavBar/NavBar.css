@@ -17,6 +17,7 @@
     object-fit: cover;
     height: 3rem;
     width: 4rem;
+    margin-top: 0.5rem;
 }
 
 .desktopMenuListItem {
@@ -24,6 +25,8 @@
     cursor: pointer;
     text-decoration: none;
     color: white;
+    letter-spacing: 1px;
+    font-size: large;
 }
 
 .desktopMenuListItem:hover{
@@ -41,6 +44,8 @@
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem;
+    letter-spacing: 1px;
+    font-size: large;
     
 }
 
@@ -48,7 +53,11 @@
     object-fit: cover;
     height: 1rem;
     width: 1rem;
-    margin: 1rem;
+    /* margin: 1rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.25rem;
+    margin-right: 1rem;
 }
 
 .active {
