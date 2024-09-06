@@ -15,13 +15,17 @@ const Navbar = () => {
             <img src={logo} alt='Logo' className='logo'></img>
       </a>
         <div className="desktopMenu">
-          <Link className="desktopMenuListItem"
+          {/* <Link className="desktopMenuListItem"
                 activeClass='active' 
                 to='intro' 
                 spy={true} 
                 smooth={true} 
                 offset={-100} 
-                duration={500}>Home</Link>
+                duration={500}>Home</Link> */}
+
+          <a className='desktopMenuListItemA' href='/skills'>
+            Skills
+          </a>
 
           <Link className="desktopMenuListItem" 
                 activeClass='active' 

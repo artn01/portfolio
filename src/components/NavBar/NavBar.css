@@ -29,6 +29,21 @@
     font-size: large;
 }
 
+.desktopMenuListItemA {
+    margin: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: large
+}
+
+.desktopMenuListItemA:hover{
+    color: cyan;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid cyan;
+}
+
 .desktopMenuListItem:hover{
     color: cyan;
     padding-bottom: 0.5rem;

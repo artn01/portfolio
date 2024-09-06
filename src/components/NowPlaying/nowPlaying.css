@@ -1,0 +1,148 @@
+/* @font-face {
+    font-family: "louisGeorge";
+    src: url("../public/fonts/LouisGeorgeCafe.ttf");
+  } */
+  .nowPlayingCard {
+    margin-top: 20px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    overflow: hidden; /* Ensure content doesn't overflow outside the card */
+  }
+  
+  .nowPlayingCard:hover {
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+  }
+  
+  .nowPlayingCard a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .nowPlayingCard a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .nowPlayingImage img {
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    margin: 10px;
+  }
+  
+  .nowPlayingImage img:hover {
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+    transform: translateX(-3px) translateY(-3px);
+    transition: all 0.5s ease;
+  }
+  
+  #nowPlayingDetails {
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    height: 100%;
+  }
+  
+  .nowPlayingTitle, .playlistName {
+    flex-shrink: 0;
+    color: #000;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  .marquee:hover {
+    animation: marquee linear infinite; /* Adjust timing for speed */
+    animation-delay: 1s;
+    white-space: no-wrap;
+  }
+  
+  .marquee-artist:hover {
+    animation: marquee linear infinite; /* Adjust timing for speed */
+    animation-delay: 1s;
+    white-space: no-wrap;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+  
+    50% {
+      transform: translateX(calc(-100%)); /* Move the text out of view to the left */
+    }
+  
+    80% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translateX(0); /* Move the text back to its original position */
+    }
+  }
+  
+  @keyframes marquee-artist {
+    0% {
+      transform: translateX(0);
+    }
+  
+    50% {
+      transform: translateX(calc(-100%)); /* Move the text out of view to the left */
+    }
+  
+    80% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translateX(0); /* Move the text back to its original position */
+    }
+  }
+  
+  .nowPlayingArtist, .playlistHeader {
+    text-align: left;
+    flex-shrink: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    text-align: left;
+  }
+  
+  
+  .nowPlayingTime {
+    text-align: left;
+  }
+  
+  .nowPlayingState {
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+  }
+  
+  .nowPlayingState img{
+    filter: invert(100%);
+    width: 100%;
+  }
+
+  

@@ -3,6 +3,7 @@ import './intro.css'
 import bg from '../../assets/graduation_cut.jpg'
 import {Link} from 'react-scroll';
 import btnImg from '../../assets/hireme.png'
+import NowPlaying from '../NowPlaying/NowPlaying';
 
 const Intro = () => {
   return (
@@ -15,6 +16,7 @@ const Intro = () => {
         </div>
         <img src={bg} alt="Profile" className="bg" />
 
+        <div><NowPlaying></NowPlaying></div>
     </section>
   );
 }
