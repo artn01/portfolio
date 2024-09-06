@@ -4,6 +4,7 @@ import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import NowPlaying from "./components/NowPlaying/NowPlaying";
+import About from "./components/About/About";
 
 function App() {
   return (
@@ -16,10 +17,13 @@ function App() {
             <Routes>
 
               {/* // http://localhost:3000/ */}
-              <Route path='/' element = {[<Intro />, <NowPlaying/>]}> </Route>
+              <Route path='/' element = {<Intro />}> </Route>
 
               {/* // http://localhost:3000/skills */}
               <Route path='/skills' element = {<Skills />}> </Route>
+
+              {/* // http://localhost:3000/about */}
+              <Route path='/about' element = {<About />}> </Route>
         
             </Routes>
             {/* <NowPlaying></NowPlaying> */}

@@ -7,7 +7,7 @@ import AppDesign from '../../assets/app-design.png';
 const Skills = () => {
   return (
     <section id='skills'>
-        <span className='skillTitle'>What I do</span>
+        <span className='skillTitle'>My Skills</span>
         <span className='skillDesc'>I am a passionate and skilled junior developer.</span>
         <div className='skillBars'>
             <div className='skillBar'>

@@ -27,14 +27,18 @@ const Navbar = () => {
             Skills
           </a>
 
-          <Link className="desktopMenuListItem" 
+          <a className='desktopMenuListItemA' href='/about'>
+            About
+          </a>
+
+          {/* <Link className="desktopMenuListItem" 
                 activeClass='active' 
                 to='skills' 
                 spy={true} 
                 smooth={true} 
                 offset={-1} 
                 duration={500}
-                href="/skills">About</Link>
+                href="/skills">About</Link> */}
 
           <Link className="desktopMenuListItem"
                 activeClass='active' 

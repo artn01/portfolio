@@ -1,5 +1,5 @@
 
-  #intro {
+#intro {
     /* Full height - havbar height */
     height: calc(100vh - 4rem);
     width: 100vw;
