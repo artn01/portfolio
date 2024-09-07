@@ -59,6 +59,14 @@
     letter-spacing: 1px;
 }
 
+.skillBarText>p {
+    text-justify: inter-word;
+}
+
+.skillBarText {
+    text-justify: inter-word;
+}
+
 @media screen and (max-width:720px) {
     .skillBarText>p {
         font-size: 2vw;

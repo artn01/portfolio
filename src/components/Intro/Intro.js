@@ -3,20 +3,29 @@ import './intro.css'
 import bg from '../../assets/graduation_cut.jpg'
 import {Link} from 'react-scroll';
 import btnImg from '../../assets/hireme.png'
-import NowPlaying from '../NowPlaying/NowPlaying';
+import { useEffect } from 'react';
+import Footer from '../Footer/Footer';
+
 
 const Intro = () => {
+
+  // useEffect(() => {
+  //   // Applying on mount
+  //   document.body.style.overflow = "hidden";
+  //   // Applying on unmount
+  //   return () => {
+  //     document.body.style.overflow = "scroll";
+  //   };   }, []);
+
   return (
     <section id='intro'>
         <div className="introContent">
-            <span className="hello">Hello, </span>
-            <span className="introText">I am <span className="introName">Artjom </span><br />Junior Software Developer</span>
-            <p className="introPara">I am a freshly graduated Bachelor's student, looking to apply my <br /> theoretical knowledge in the real work environment.</p>
-            <Link><button className="btn"><img src={btnImg} alt="HIRE ME" className='btnImg'/>Hire Me</button></Link>
-        </div>
-        <img src={bg} alt="Profile" className="bg" />
 
-        <div><NowPlaying></NowPlaying></div>
+            {/* <span className="hello" id='helloId'>Hello, </span> */}
+            {/* <span className="introText" id='introTextId'>I am <span className="introName" id='introNameId'>Artjom </span><br />Junior Software Developer</span> */}
+            {/* <a className="btn"><img src={btnImg} alt="HIRE ME" className='btnImg'/>Hire Me</a> */}
+        </div>
+        {/* <img src={bg} alt="Profile" className="bg" /> */}
     </section>
   );
 }
