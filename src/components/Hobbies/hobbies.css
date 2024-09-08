@@ -44,6 +44,22 @@
     background: rgb(50, 50, 50);
 }
 
+.musicHobbyBar {
+    display: flex;
+
+    /* Flex direction is super important here, as the playback element must pe positioned below. */
+    flex-direction: column; 
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.upperPart {
+    display: flex;
+    flex-direction: row;
+}
+
 .hobbyBarImg {
     object-fit: cover;
     height: 3rem;
@@ -69,6 +85,19 @@
 
 .hobbyBarText {
     text-justify: inter-word;
+}
+
+.malLink {
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: medium;
+    text-decoration: underline;
+}
+
+.malLink:hover {
+    color: #0eeadf;
+    padding-bottom: 0.5rem;
 }
 
 @media screen and (max-width:720px) {

@@ -44,13 +44,13 @@ const Navbar = () => {
                 duration={500}
                 href="/skills">About</Link> */}
 
-          <Link className="desktopMenuListItem"
+          {/* <Link className="desktopMenuListItem"
                 activeClass='active' 
                 to='' 
                 spy={true} 
                 smooth={true} 
                 offset={-50} 
-                duration={500}>Portfolio</Link>
+                duration={500}>Portfolio</Link> */}
 
           {/* <Link className="desktopMenuListItem"
                 activeClass='active' 

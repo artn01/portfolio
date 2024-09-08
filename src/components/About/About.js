@@ -3,7 +3,7 @@ import './about.css'
 import bg from '../../assets/graduation_cut.jpg'
 const About = () => {
   return (
-    <section id='intro'>
+    <section id='about'>
         <div className="aboutContent">
             <span className="hello">Hello! </span>
             <span className="aboutText">I am <span className="aboutName">Artjom</span>,<br />Junior Software Developer</span>
