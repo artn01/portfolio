@@ -43,7 +43,7 @@
 }
 
 .aboutName {
-  color: cyan;
+  color: #0eeadf;
   font-family: sans-serif;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .thesisLink:hover{
-  color: cyan;
+  color: #0eeadf;
   padding-bottom: 0.5rem;
 }
 
@@ -118,7 +118,7 @@
 }
 
 .redirectLink:hover{
-  color: cyan;
+  color: #0eeadf;
   padding-bottom: 0.5rem;
 }
 

@@ -39,15 +39,15 @@
 }
 
 .desktopMenuListItemA:hover{
-    color: cyan;
+    color: #0eeadf;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid cyan;
+    border-bottom: 3px solid #0eeadf;
 }
 
 .desktopMenuListItem:hover{
-    color: cyan;
+    color: #0eeadf;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid cyan;
+    border-bottom: 3px solid #0eeadf;
 }
 
 .desktopMenuBtn {
@@ -76,9 +76,9 @@
 }
 
 .active {
-    color: cyan;
+    color: #0eeadf;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid cyan;
+    border-bottom: 3px solid #0eeadf;
 }
 
 .mobMenu {

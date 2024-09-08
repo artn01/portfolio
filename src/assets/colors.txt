@@ -1,0 +1,8 @@
+miku-hair: #00ddc0 or #0eeadf
+pink-purple: #e480ff
+aquamarine: #00ecff
+green: #1ce5c2
+blue: #00abff
+darker-blue: #0ca5c5
+
+link: https://www.color-hex.com/color-palette/8411
