@@ -31,6 +31,10 @@ const Navbar = () => {
             About
           </a>
 
+          <a className='desktopMenuListItemA' href='/hobbies'>
+            Hobbies
+          </a>
+
           {/* <Link className="desktopMenuListItem" 
                 activeClass='active' 
                 to='skills' 
@@ -48,13 +52,13 @@ const Navbar = () => {
                 offset={-50} 
                 duration={500}>Portfolio</Link>
 
-          <Link className="desktopMenuListItem"
+          {/* <Link className="desktopMenuListItem"
                 activeClass='active' 
                 to='' 
                 spy={true} 
                 smooth={true} 
                 offset={-50} 
-                duration={500}>Hobbies</Link>
+                duration={500}>Hobbies</Link> */}
 
         </div>
         <button className="desktopMenuBtn" onClick={() => {

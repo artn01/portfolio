@@ -1,4 +1,4 @@
-#skills {
+#hobbies {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -10,14 +10,14 @@
     margin: 0 auto;
 }
 
-.skillTitle {
+.hobbiesTitle {
     font-size: 3rem;
     font-weight: 400;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
 }
 
-.skillDesc {
+.hobbiesDesc {
     font-family: sans-serif;
     font-weight: 200;
     font-size: 1.25rem;
@@ -25,20 +25,18 @@
     padding: 0, 2rem;
 }
 
-.skillBars {
+.hobbiesBars {
     margin: 1.5rem;
     width: 100vw;
     max-width: 80%;
     text-align: left;
     display: grid;
-    
-    /* Added dynamic grid */
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 70rem));
-    grid-auto-rows: minmax(5rem, auto);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 30fr));
+    grid-auto-rows: minmax(10rem, auto);
     gap: 20px;
 }
 
-.skillBar {
+.hobbyBar {
     display: flex;
     margin: 1rem;
     padding: 1.5rem 2rem;
@@ -46,61 +44,51 @@
     background: rgb(50, 50, 50);
 }
 
-.skillBarImg {
+.hobbyBarImg {
     object-fit: cover;
     height: 3rem;
     width: 3rem;
     margin-right: 2rem;
 }
 
-.skillBarText>p {
+.hobbyBarText>p {
     font-size: 1rem;
     font-weight: 200;
     font-family: sans-serif;
 }
 
-.skillBarText>h2 {
+.hobbyBarText>h2 {
     font-size: 1.75rem;
     font-weight: 200;
     letter-spacing: 1px;
 }
 
-.skillBarText>p {
+.hobbyBarText>p {
     text-justify: inter-word;
 }
 
-.skillBarText {
+.hobbyBarText {
     text-justify: inter-word;
-}
-
-.languageList {
-    display: grid;
-    gap: 0.25rem;
-    margin-left: 2rem;
-}
-
-.languageEntry {
-    font-family: sans-serif;
 }
 
 @media screen and (max-width:720px) {
-    .skillBarText>p {
+    .hobbyBarText>p {
         font-size: 2vw;
     }
     
 }
 
 @media screen and (max-width:480px) {
-    .skillBarText>p {
+    .hobbyBarText>p {
         font-size: 3vw;
     }
 
-    .skillBarImg {
+    .hobbyBarImg {
         height: 2.25rem;
         width: 2.25rem;
     }
 
-    .skillBarText>h2 {
+    .hobbyBarText>h2 {
         font-size: 5vw;
     }
     
