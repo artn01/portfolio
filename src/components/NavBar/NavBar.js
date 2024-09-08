@@ -54,7 +54,7 @@ const Navbar = () => {
                 spy={true} 
                 smooth={true} 
                 offset={-50} 
-                duration={500}>Clients</Link>
+                duration={500}>Hobbies</Link>
 
         </div>
         <button className="desktopMenuBtn" onClick={() => {

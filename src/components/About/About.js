@@ -25,7 +25,7 @@ const About = () => {
                     <span className="year">2021 - 2024</span>
                     <p className='entryPara'>
                       Student at Tallinn University of Technology (TalTech), School of Information Technologies, 
-                      <span className='faculty'> Informatics</span> Bachelor of Science in Engineering
+                      <span className='faculty'> Informatics</span> (Bachelor of Science in Engineering)
                       
                       <p className='thesisPara'><a className='thesisLink' href="https://digikogu.taltech.ee/et/Item/f193724a-684d-4ccb-a349-4573a139bbe9" target="_blank">
                       Bachelor's thesis:</a> “Object mapping application for motion registration system”</p>

@@ -11,7 +11,7 @@
 
 .bg {
   position: absolute;
-  top: 5rem;
+  top: 3rem;
   right: 0;
   object-fit: cover;
   z-index: -1;
@@ -101,6 +101,9 @@
 .thesis {
   margin-top: 0.5rem;
   margin-left: 2rem;
+  /* margin-top: 1rem; */
+  display: grid;
+  gap: 0.5rem;
 }
 
 .thesisEntry {
@@ -117,12 +120,6 @@
 .redirectLink:hover{
   color: cyan;
   padding-bottom: 0.5rem;
-}
-
-.thesis {
-  margin-top: 1rem;
-  display: grid;
-  gap: 0.5rem;
 }
 
 .btn {

@@ -67,6 +67,16 @@
     text-justify: inter-word;
 }
 
+.languageList {
+    display: grid;
+    gap: 0.25rem;
+    margin-left: 2rem;
+}
+
+.languageEntry {
+    font-family: sans-serif;
+}
+
 @media screen and (max-width:720px) {
     .skillBarText>p {
         font-size: 2vw;

@@ -3,58 +3,55 @@ import './skills.css';
 import UIDesign from '../../assets/ui-design.png';
 import WebDesign from '../../assets/website-design.png';
 import AppDesign from '../../assets/app-design.png';
+import Languages from '../../assets/languages.png';
+import WebDev from '../../assets/web_dev.png';
+import SoftSkills from '../../assets/soft_skills.png';
+import UiUx from '../../assets/ui_ux.png';
 
 const Skills = () => {
   return (
     <section id='skills'>
         <span className='skillTitle'>My Skills</span>
-        <span className='skillDesc'>I am a passionate and skilled junior developer.</span>
+        <span className='skillDesc'>I am a passionate and eager to learn junior developer.</span>
         <div className='skillBars'>
+
             <div className='skillBar'>
-                <img src={UIDesign} alt='UiDesign' className='skillBarImg'></img>
+                <img src={WebDev} alt='Web Development' className='skillBarImg'></img>
+                <div className='skillBarText'>
+                    <h2>Web Development</h2>
+                    <p>I have experience with Java, Spring Boot, React, HTML and CSS.</p>
+                </div>
+            </div>
+
+            <div className='skillBar'>
+                <img src={SoftSkills} alt='SoftSkills' className='skillBarImg'></img>
+                <div className='skillBarText'>
+                    <h2>Soft Skills</h2>
+                    <p>Communication and listening skills, time management, problem-solving, adaptability.</p>
+                </div>
+            </div>
+
+            <div className='skillBar'>
+                <img src={Languages} alt='Languages' className='skillBarImg'></img>
+                <div className='skillBarText'>
+                    <h2>Languages</h2>
+                    <p>
+                        <ul className='languageList'>
+                            <li className='languageEntry'>English (C1, Cambridge Certificate)</li>
+                            <li className='languageEntry'>Estonian (B2, highschool exam 94/100)</li>
+                            <li className='languageEntry'>German (B2, Goethe Certificate)</li>
+                            <li className='languageEntry'>Japanese (currently learning basics)</li>
+                            <li className='languageEntry'>Russian (Native)</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div className='skillBar'>
+                <img src={UiUx} alt='Figma' className='skillBarImg'></img>
                 <div className='skillBarText'>
                     <h2>UI/UX Design</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum. "Sed ut perspiciatis unde omnis iste natus error sit 
-                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
-                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."</p>
-                </div>
-            </div>
-
-            <div className='skillBar'>
-                <img src={WebDesign} alt='WebDesign' className='skillBarImg'></img>
-                <div className='skillBarText'>
-                    <h2>Website Design</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum. "Sed ut perspiciatis unde omnis iste natus error sit 
-                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                        veritatis et quasi architecto beatae vitae dicta sunt explicabo."</p>
-                </div>
-            </div>
-
-            <div className='skillBar'>
-                <img src={AppDesign} alt='AppDesign' className='skillBarImg'></img>
-                <div className='skillBarText'>
-                    <h2>App Design</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum. "Sed ut perspiciatis unde omnis iste natus error 
-                        sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
-                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."</p>
+                    <p>I have experience with Figma.</p>
                 </div>
             </div>
         </div>
