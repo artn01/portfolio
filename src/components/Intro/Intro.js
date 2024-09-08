@@ -1,10 +1,5 @@
 import React from 'react'
 import './intro.css'
-import bg from '../../assets/graduation_cut.jpg'
-import {Link} from 'react-scroll';
-import btnImg from '../../assets/hireme.png'
-import { useEffect } from 'react';
-import Footer from '../Footer/Footer';
 
 
 const Intro = () => {
@@ -20,10 +15,12 @@ const Intro = () => {
   return (
     <section id='intro'>
         <div className="introContent">
+          <h1 className='introHeader'>Welcome to My Portfolio!</h1>
+            <p className='introPara'>On this website, you will be able to find information about me, so let's get started!
+            </p>
 
-            {/* <span className="hello" id='helloId'>Hello, </span> */}
-            {/* <span className="introText" id='introTextId'>I am <span className="introName" id='introNameId'>Artjom </span><br />Junior Software Developer</span> */}
-            {/* <a className="btn"><img src={btnImg} alt="HIRE ME" className='btnImg'/>Hire Me</a> */}
+            <a className="introButton" href="/about" onClick={() => console.log("Clicked!")}>About Me</a>
+            
         </div>
         {/* <img src={bg} alt="Profile" className="bg" /> */}
     </section>

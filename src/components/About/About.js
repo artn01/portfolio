@@ -1,16 +1,13 @@
 import React from 'react'
 import './about.css'
 import bg from '../../assets/graduation_cut.jpg'
-import {Link} from 'react-scroll';
-import btnImg from '../../assets/hireme.png'
-
 const About = () => {
   return (
     <section id='intro'>
-        <div className="introContent">
+        <div className="aboutContent">
             <span className="hello">Hello! </span>
-            <span className="introText">I am <span className="introName">Artjom</span>,<br />Junior Software Developer</span>
-            <div className='introDiv'> 
+            <span className="aboutText">I am <span className="aboutName">Artjom</span>,<br />Junior Software Developer</span>
+            <div className='aboutDiv'> 
             
                 <ul className='timeline'>
                   <li className='entry'>
