@@ -53,6 +53,7 @@
 }
 
 .name, .email, .msg {
+    font-family: sans-serif;
     font-size: large;
     width: 100%;
     max-width: 40rem;
