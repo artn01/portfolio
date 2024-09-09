@@ -45,7 +45,7 @@ const Hobbies = () => {
                 <img src={Sports} alt='Sports' className='hobbyBarImg'></img>
                 <div className='hobbyBarText'>
                     <h2>Sports</h2>
-                    <p>Sports, spoerts, sports. I used to do ice-dance semi-professionally, but in the 
+                    <p>Sports, sports, sports. I used to do ice-dance semi-professionally, but in the 
                         end left it to pursue academic goals. I like playing volleyball, but lately I don't really
                         have much time to do it.
                     </p>

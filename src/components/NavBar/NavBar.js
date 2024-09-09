@@ -35,31 +35,6 @@ const Navbar = () => {
             Hobbies
           </a>
 
-          {/* <Link className="desktopMenuListItem" 
-                activeClass='active' 
-                to='skills' 
-                spy={true} 
-                smooth={true} 
-                offset={-1} 
-                duration={500}
-                href="/skills">About</Link> */}
-
-          {/* <Link className="desktopMenuListItem"
-                activeClass='active' 
-                to='' 
-                spy={true} 
-                smooth={true} 
-                offset={-50} 
-                duration={500}>Portfolio</Link> */}
-
-          {/* <Link className="desktopMenuListItem"
-                activeClass='active' 
-                to='' 
-                spy={true} 
-                smooth={true} 
-                offset={-50} 
-                duration={500}>Hobbies</Link> */}
-
         </div>
         <a className="desktopMenuBtn" href="/contact">
             <img src={contactImg} alt="Contact Me" className="desktopMenuImg"/>Contact Me</a>
