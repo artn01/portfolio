@@ -61,10 +61,8 @@ const Navbar = () => {
                 duration={500}>Hobbies</Link> */}
 
         </div>
-        <button className="desktopMenuBtn" onClick={() => {
-          document.getElementById('skills').scrollIntoView({behavior: 'smooth'});
-        }}>
-            <img src={contactImg} alt="Contact Me" className="desktopMenuImg" />Contact Me</button>
+        <a className="desktopMenuBtn" href="/contact">
+            <img src={contactImg} alt="Contact Me" className="desktopMenuImg"/>Contact Me</a>
 
         <img src={menu} alt='Menu' className='mobMenu' onClick={() => setShowMenu(!showMenu)}></img>
         <div className="navMenu" style={{display: showMenu ? 'flex':'none'}}>

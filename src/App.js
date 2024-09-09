@@ -6,6 +6,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import NowPlaying from "./components/NowPlaying/NowPlaying";
 import About from "./components/About/About";
 import Hobbies from "./components/Hobbies/Hobbies";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
 
               {/* // http://localhost:3000/hobbies */}
               <Route path='/hobbies' element = {<Hobbies />}> </Route>
+
+              {/* // http://localhost:3000/contact */}
+              <Route path='/contact' element = {<Contact />}> </Route>
         
             </Routes>
             {/* <NowPlaying></NowPlaying> */}
