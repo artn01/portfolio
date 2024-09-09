@@ -25,6 +25,7 @@
     letter-spacing: 1px;
     font-size: 3rem;
     font-weight: 400;
+    margin-bottom: 1.5rem;
     /* padding-top: 3rem; */
     /* margin-bottom: 1.5rem; */
 }
@@ -65,6 +66,8 @@
 
 .msg {
     max-height: 20rem;
+    min-width: 11rem;
+    min-height: 5rem;
 }
 
 .submitBtn {
