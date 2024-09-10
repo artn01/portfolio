@@ -1,6 +1,7 @@
 
 #about {
   /* Full height - havbar height */
+  /* Line to test the commit from laptop */
   height: calc(100vh - 4rem);
   width: 100vw;
   max-width: 75rem;
