@@ -4,10 +4,9 @@ import bg from '../../assets/graduation_cut.jpg'
 const About = () => {
   return (
     <section id='about'>
-      <div className='aboutContainer'>
         <div className="aboutContent">
             <span className="hello">Hello! </span>
-            <span className="aboutText">I am Junior Software Developer</span>
+            <span className="aboutText">I am <span className="aboutName">Artjom</span>,<br />Junior Software Developer</span>
             <div className='aboutDiv'> 
             
                 <ul className='timeline'>
@@ -55,8 +54,7 @@ const About = () => {
 
             {/* <a className="btn"><img src={btnImg} alt="HIRE ME" className='btnImg'/>Hire Me</a> */}
         </div>
-          {/* <img src={bg} alt="Profile" className="bg" /> */}
-      </div>
+        <img src={bg} alt="Profile" className="bg" />
     </section>
   );
 }

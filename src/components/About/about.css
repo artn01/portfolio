@@ -1,27 +1,14 @@
-
 #about {
-  /* Full height - havbar height */
-  /* Line to test the commit from laptop */
-  /* Old code */
-  height: calc(100vh - 4rem);
-  width: 100vw;
-  max-width: 75rem;
-  margin: 0 auto;
   overflow: hidden;
-  position: relative;
-  margin-bottom: 4rem;
-
-  /* New code */
-  /* overflow: hidden;
   width: 100vw;
   max-width: 65rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  /* align-items: center;
+  justify-content: center; */
   margin: 0 auto;
-  margin-bottom: 4rem; */
+  margin-bottom: 4rem;
+  position: relative;
 }
 
 .bg {
@@ -34,15 +21,32 @@
   border-radius: 2rem;
 }
 
-.abouContainer {
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
+.redirectLink {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  text-decoration: underline;
+}
+
+.redirectLink:hover{
+  color: #0eeadf;
+  padding-bottom: 0.5rem;
+}
+
+.thesisLink {
+  text-decoration: none;
+  font-size: x-large;
+  color: white;
+  text-decoration: underline;
+}
+
+.thesisLink:hover{
+  color: #0eeadf;
+  padding-bottom: 0.5rem;
 }
 
 .aboutContent {
   font-family: sans-serif;
-  height: 100vh;
   width: 50%;
   padding: 2rem;
   font-size: 3rem;
