@@ -3,10 +3,11 @@ import Intro from "./components/Intro/Intro";
 import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import NowPlaying from "./components/NowPlaying/NowPlaying";
 import About from "./components/About/About";
 import Hobbies from "./components/Hobbies/Hobbies";
 import Contact from "./components/Contact/Contact";
+import newAbout from "./components/newAbout/newAbout";
+import './app.css';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
               <Route path='/skills' element = {<Skills />}> </Route>
 
               {/* // http://localhost:3000/about */}
-              <Route path='/about' element = {<About />}> </Route>
+              {/* <Route path='/about' element = {<newAbout />}> </Route> */}
+              <Route path="/about" element = {<About/>}></Route>
 
               {/* // http://localhost:3000/hobbies */}
               <Route path='/hobbies' element = {<Hobbies />}> </Route>

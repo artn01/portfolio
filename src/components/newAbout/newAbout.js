@@ -1,9 +1,9 @@
 import React from 'react'
-import './about.css'
+import './newabout.css'
 import bg from '../../assets/graduation_cut.jpg'
-const About = () => {
+const newAbout = () => {
   return (
-    <section id='about'>
+    <section id='newAbout'>
       <div className='aboutContainer'>
         <div className="aboutContent">
             <span className="hello">Hello! </span>
@@ -55,10 +55,10 @@ const About = () => {
 
             {/* <a className="btn"><img src={btnImg} alt="HIRE ME" className='btnImg'/>Hire Me</a> */}
         </div>
-          {/* <img src={bg} alt="Profile" className="bg" /> */}
+          <img src={bg} alt="Profile" className="bg" />
       </div>
     </section>
   );
 }
 
-export default About
+export default newAbout
