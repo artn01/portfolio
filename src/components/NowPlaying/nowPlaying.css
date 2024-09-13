@@ -65,7 +65,7 @@
   
   .nowPlayingTitle, .playlistName {
     flex-shrink: 0;
-    color: #000;
+    color: white;
     white-space: nowrap;
     text-align: left;
     font-size: 20px;
