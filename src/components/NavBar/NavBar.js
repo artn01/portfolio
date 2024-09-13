@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import './NavBar.css'
 import logo from '../../assets/logo_new.png'
 import contactImg from '../../assets/contact.png'
-import menu from '../../assets/menu.png'
-import {Link} from 'react-scroll';
+import menu from '../../assets/burger_menu.png'
+import {Link} from 'react-scroll'; 
 
 const Navbar = () => {
 
@@ -42,7 +42,19 @@ const Navbar = () => {
         <img src={menu} alt='Menu' className='mobMenu' onClick={() => setShowMenu(!showMenu)}></img>
         <div className="navMenu" style={{display: showMenu ? 'flex':'none'}}>
 
-          <Link className="listItem"
+        <a className='listItem' href='/skills'>
+            Skills
+          </a>
+
+          <a className='listItem' href='/about'>
+            About
+          </a>
+
+          <a className='listItem' href='/hobbies'>
+            Hobbies
+          </a>
+
+          {/* <Link className="listItem"
                 onClick={() => setShowMenu(false)}
                 activeClass='active' 
                 to='intro' 
@@ -76,7 +88,7 @@ const Navbar = () => {
                 spy={true} 
                 smooth={true} 
                 offset={-50} 
-                duration={500}>Clients</Link>
+                duration={500}>Clients</Link> */}
 
         </div>
     </nav>
