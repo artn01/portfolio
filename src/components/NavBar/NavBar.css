@@ -20,6 +20,10 @@
     margin-top: 0.5rem;
 }
 
+.desktopMenu {
+    margin-left: 7.5rem;
+}
+
 .desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
