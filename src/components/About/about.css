@@ -31,6 +31,7 @@
 .redirectLink:hover{
   color: #0eeadf;
   padding-bottom: 0.5rem;
+  transition: all 1s ease;
 }
 
 .thesisLink {
@@ -43,6 +44,7 @@
 .thesisLink:hover{
   color: #0eeadf;
   padding-bottom: 0.5rem;
+  transition: all 1s ease;
 }
 
 .aboutContent {
@@ -116,11 +118,6 @@
   font-size: x-large;
   color: white;
   text-decoration: underline;
-}
-
-.thesisLink:hover{
-  color: #0eeadf;
-  padding-bottom: 0.5rem;
 }
 
 .thesis {

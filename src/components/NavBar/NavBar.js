@@ -42,17 +42,17 @@ const Navbar = () => {
         <img src={menu} alt='Menu' className='mobMenu' onClick={() => setShowMenu(!showMenu)}></img>
         <div className="navMenu" style={{display: showMenu ? 'flex':'none'}}>
 
-        <a className='listItem' href='/skills'>
-            Skills
-          </a>
+          <a className='listItem' href='/skills'>
+              Skills
+            </a>
 
-          <a className='listItem' href='/about'>
-            About
-          </a>
+            <a className='listItem' href='/about'>
+              About
+            </a>
 
-          <a className='listItem' href='/hobbies'>
-            Hobbies
-          </a>
+            <a className='listItem' href='/hobbies'>
+              Hobbies
+            </a>
 
           {/* <Link className="listItem"
                 onClick={() => setShowMenu(false)}
