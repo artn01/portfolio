@@ -2,12 +2,12 @@ import axios from "axios";
 
 const REST_API_BASE_URL = 'http://localhost:8080/api/posts';
 
-// export const listEmployees = () => axios.get(REST_API_BASE_URL);
+export const listPosts = () => axios.get(REST_API_BASE_URL);
 
-// export const createEmployee = (employee) => axios.post(REST_API_BASE_URL, employee)
+export const createPost = (post) => axios.post(REST_API_BASE_URL, post)
 
-// export const getEmployee = (employeeId) => axios.get(REST_API_BASE_URL + '/' + employeeId)
+export const getPost = (postId) => axios.get(REST_API_BASE_URL + '/' + postId)
 
-// export const updateEmployee = (employeeId, updatedEmployee) => axios.put(REST_API_BASE_URL + '/' + employeeId, updatedEmployee)
+export const updatePost = (postId, updatedPost) => axios.put(REST_API_BASE_URL + '/' + postId, updatedPost)
 
-// export const deleteEmployee = (employeeId) => axios.delete(REST_API_BASE_URL + '/' + employeeId)
+export const deletePost = (postId) => axios.delete(REST_API_BASE_URL + '/' + postId)

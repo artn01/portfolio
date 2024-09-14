@@ -35,6 +35,10 @@ const Navbar = () => {
             Hobbies
           </a>
 
+          <a className='desktopMenuListItemA' href='/blog'>
+            Blog
+          </a>
+
         </div>
         <a className="desktopMenuBtn" href="/contact">
             <img src={contactImg} alt="Contact Me" className="desktopMenuImg"/>Contact Me</a>
@@ -52,6 +56,10 @@ const Navbar = () => {
 
             <a className='listItem' href='/hobbies'>
               Hobbies
+            </a>
+
+            <a className='listItem' href='/blog'>
+              Blog
             </a>
 
           {/* <Link className="listItem"

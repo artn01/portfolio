@@ -8,6 +8,7 @@ import Hobbies from "./components/Hobbies/Hobbies";
 import Contact from "./components/Contact/Contact";
 import newAbout from "./components/newAbout/newAbout";
 import './app.css';
+import Blog from "./components/Blog/Blog";
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
 
               {/* // http://localhost:3000/contact */}
               <Route path='/contact' element = {<Contact />}> </Route>
+
+              {/* // http://localhost:3000/blog */}
+              <Route path='/blog' element = {<Blog />}> </Route>
         
             </Routes>
             {/* <NowPlaying></NowPlaying> */}
