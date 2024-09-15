@@ -58,45 +58,8 @@ const Blog = () => {
               </div>
             </div>
           )}
-
-          <a className="createPostButton" href="/about" onClick={() => console.log("Clicked!")}>Write a post</a>
-
-            
-                {/* <img src={WebDev} alt='Web Development' className='blogBarImg'></img> */}
-            
-
-            {/* <div className='blogBar'>
-                <img src={SoftSkills} alt='Softblogs' className='blogBarImg'></img>
-                <div className='blogBarText'>
-                    <h2>Soft blogs</h2>
-                    <p>Communication and listening blogs, time management, problem-solving, adaptability.</p>
-                </div>
-            </div> */}
-
-            {/* <div className='blogBar'>
-                <img src={Languages} alt='Languages' className='blogBarImg'></img>
-                <div className='blogBarText'>
-                    <h2>Languages</h2>
-                    <p>
-                        <ul className='languageList'>
-                            <li className='languageEntry'>English (C1, Cambridge Certificate)</li>
-                            <li className='languageEntry'>Estonian (B2, highschool exam 94/100)</li>
-                            <li className='languageEntry'>German (B2, Goethe Certificate)</li>
-                            <li className='languageEntry'>Japanese (currently learning basics)</li>
-                            <li className='languageEntry'>Russian (Native)</li>
-                        </ul>
-                    </p>
-                </div>
-            </div> */}
-
-            {/* <div className='blogBar'>
-                <img src={UiUx} alt='Figma' className='blogBarImg'></img>
-                <div className='blogBarText'>
-                    <h2>UI/UX Design</h2>
-                    <p>I have experience with Figma.</p>
-                </div>
-            </div> */}
         </div>
+        <a className="createPostButton" onClick={addNewPost}>Write a post</a>
     </section>
   )
 }
