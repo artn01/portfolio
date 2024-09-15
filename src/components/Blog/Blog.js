@@ -51,7 +51,7 @@ const Blog = () => {
         <div className='blogBars'>
           {posts.map(post => 
             <div className='blogBar'>
-              <a className='editPostBtn'>
+              <a className='editPostBtn' onClick={() => updatePost(post.id)}>
                 <img src={EditPost} alt='EditPost' className='blogBarImg'></img>
               </a>
               <div className='blogBarText'>

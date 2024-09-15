@@ -42,6 +42,9 @@ function App() {
 
               {/* // http://localhost:3000/add-post */}
               <Route path='/add-post' element = {<BlogPost />}> </Route>
+
+              {/* // http://localhost:3000/edit-post/1 */}
+              <Route path='/edit-post/:id' element = {<BlogPost />}> </Route>
         
             </Routes>
             {/* <NowPlaying></NowPlaying> */}

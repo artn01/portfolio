@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {createPost, getPost, updatePost} from '../../services/AppService'
 import { useNavigate, useParams } from 'react-router-dom'
 import './blogPost.css'
@@ -12,6 +12,18 @@ const BlogPost = () => {
   const [timestamp, setTimestamp] = useState('')
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if(id) {
+      getPost(id).then((response) => {
+        setUsername(response.data.username);
+        setHeading(response.data.heading);
+        setContents(response.data.contents);
+      }).catch(error => {
+        console.error(error);
+      })
+    }
+  }, []);
 
     const {id} = useParams()
     const [errors, setErrors] = useState({
@@ -76,10 +88,22 @@ const BlogPost = () => {
     return valid
   }
 
+  function pageTitle() {
+    if(id) {
+        return <h2 className='updateTitle'>Update Post</h2>
+    } else {
+      return <h2 className='createTitle'>Add Post</h2>
+    }
+
+  }
+
   return (
     <div id='blogPost'>
-        <h1 className='blogPostPageTitle'>Create a post!</h1>
-        <span className='blogPostDesc'>Write something!</span>
+        {/* <h1 className='blogPostPageTitle'>Create a post!</h1>
+        <span className='blogPostDesc'>Write something!</span> */}
+
+        {pageTitle()}
+        
         <form className='blogPostForm'>
             <input type='text' className='username' placeholder='Username' name='username'
               value={username} 
