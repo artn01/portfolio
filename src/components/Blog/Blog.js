@@ -6,6 +6,7 @@ import WebDev from '../../assets/web_dev.png';
 import SoftSkills from '../../assets/soft_skills.png';
 import UiUx from '../../assets/ui_ux.png';
 import {listPosts, createPost, getPost, updatePost, deletePost} from '../../services/AppService';
+import EditPost from '../../assets/edit_post.png'
 
 const Blog = () => {
 
@@ -50,6 +51,9 @@ const Blog = () => {
         <div className='blogBars'>
           {posts.map(post => 
             <div className='blogBar'>
+              <a className='editPostBtn'>
+                <img src={EditPost} alt='EditPost' className='blogBarImg'></img>
+              </a>
               <div className='blogBarText'>
                 <h2 className='postHeading'>{post.heading}</h2>
                 <p className='postContents'>{post.contents}</p>
