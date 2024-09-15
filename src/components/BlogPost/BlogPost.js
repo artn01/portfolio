@@ -41,19 +41,32 @@ const BlogPost = () => {
 
     }
 
-  function savePost(event) {
+  function saveOrUpdatePost(event) {
     event.preventDefault();
     console.log(errors)
+    
     if (validateForm()) {
+
       const post = {username, heading, contents}
       console.log(post)
 
-      createPost(post).then((response) => {
-        console.log(response.data);
-        navigate('/blog');
-      }).catch(error => {
-        console.error(error);
-      })
+      if(id) {
+        updatePost(id, post).then((response) => {
+          console.log(response.data);
+          navigate('/blog');
+        }).catch(error => {
+          console.error(error);
+        })
+      } else {
+        createPost(post).then((response) => {
+          console.log(response.data);
+          navigate('/blog');
+        }).catch(error => {
+          console.error(error);
+        }).catch(error => {
+          console.error(error);
+        })
+      }
     }
   }
 
@@ -124,7 +137,7 @@ const BlogPost = () => {
               {errors.contents && (
                 <span className='error-message'>{errors.contents}</span>)}
 
-            <button className='blogPostSubmitBtn' type='submit' value="Send" onClick={savePost}>Submit</button>
+            <button className='blogPostSubmitBtn' type='submit' value="Send" onClick={saveOrUpdatePost}>Submit</button>
         </form>
     </div>
   )
