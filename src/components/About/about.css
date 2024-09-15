@@ -132,7 +132,7 @@
   font-family: sans-serif;
 }
 
-.redirectLink {
+/* .redirectLink {
   text-decoration: none;
   font-size: large;
   color: white;
@@ -142,7 +142,7 @@
 .redirectLink:hover{
   color: #0eeadf;
   padding-bottom: 0.5rem;
-}
+} */
 
 .btn {
   background: white;

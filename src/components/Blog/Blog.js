@@ -45,19 +45,25 @@ const Blog = () => {
 
   return (
     <section id='blog'>
-        <span className='blogTitle'>My blogs</span>
-        <span className='blogDesc'>I am a passionate and eager to learn junior developer.</span>
+        <span className='blogTitle'>Blog</span>
+        <span className='blogDesc'>Here everyone can leave their thoughts, but please be considerate of other people!</span>
         <div className='blogBars'>
-
+          {posts.map(post => 
             <div className='blogBar'>
-                <img src={WebDev} alt='Web Development' className='blogBarImg'></img>
-                <div className='blogBarText'>
-                    <h2>{posts.map(post => 
-                      <p>key={post.username}</p>
-                    )}</h2>
-                    <p></p>
-                </div>
+              <div className='blogBarText'>
+                <h2 className='postHeading'>{post.heading}</h2>
+                <p className='postContents'>{post.contents}</p>
+                <p className='postTimestamp'>{post.timestamp}</p>
+                <p className='postUsername'>Written by: {post.username}</p>
+              </div>
             </div>
+          )}
+
+          <a className="createPostButton" href="/about" onClick={() => console.log("Clicked!")}>Write a post</a>
+
+            
+                {/* <img src={WebDev} alt='Web Development' className='blogBarImg'></img> */}
+            
 
             {/* <div className='blogBar'>
                 <img src={SoftSkills} alt='Softblogs' className='blogBarImg'></img>
@@ -83,13 +89,13 @@ const Blog = () => {
                 </div>
             </div> */}
 
-            <div className='blogBar'>
+            {/* <div className='blogBar'>
                 <img src={UiUx} alt='Figma' className='blogBarImg'></img>
                 <div className='blogBarText'>
                     <h2>UI/UX Design</h2>
                     <p>I have experience with Figma.</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     </section>
   )

@@ -64,8 +64,14 @@ const Contact = () => {
         .then(
           () => {
             console.log('SUCCESS!');
-            e.target.reset();
+            // e.target.reset();
             alert('Email Sent');
+
+            setFormData({
+              from_name: "",
+              from_email: "",
+              message: ""
+            });
           },
           (error) => {
             console.log('FAILED...', error.text);

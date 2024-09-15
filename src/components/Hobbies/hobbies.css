@@ -99,6 +99,7 @@
 .malLink:hover {
     color: #0eeadf;
     padding-bottom: 0.5rem;
+    transition: all 1s ease;
 }
 
 @media screen and (max-width:720px) {
