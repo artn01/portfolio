@@ -32,15 +32,6 @@ const BlogPost = () => {
       contents: ''
     })
 
-    function pageTitle() {
-      if(id) {
-          return <h2 className='text-center'>Update Employee</h2>
-      } else {
-        return <h2 className='text-center'>Add Employee</h2>
-      }
-
-    }
-
   function saveOrUpdatePost(event) {
     event.preventDefault();
     console.log(errors)

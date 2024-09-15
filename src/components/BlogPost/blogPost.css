@@ -106,10 +106,8 @@
     transition: all 0.5s ease;
 }
 
-.updateTitle {
-    text-align: center;
-}
-
-.createTitle {
-    text-align: center;
+.updateTitle, .createTitle {
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
