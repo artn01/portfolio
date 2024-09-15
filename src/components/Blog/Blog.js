@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './blog.css'
 import { useNavigate } from 'react-router-dom'
-import Languages from '../../assets/languages.png';
-import WebDev from '../../assets/web_dev.png';
-import SoftSkills from '../../assets/soft_skills.png';
-import UiUx from '../../assets/ui_ux.png';
-import {listPosts, createPost, getPost, updatePost, deletePost} from '../../services/AppService';
+import {listPosts, deletePost} from '../../services/AppService';
 import EditPost from '../../assets/edit_post.png'
+import DeletePost from '../../assets/delete.png'
 
 const Blog = () => {
 
@@ -52,8 +49,13 @@ const Blog = () => {
           {posts.map(post => 
             <div className='blogBar'>
               <a className='editPostBtn' onClick={() => updatePost(post.id)}>
-                <img src={EditPost} alt='EditPost' className='blogBarImg'></img>
+                <img src={EditPost} alt='EditPost' className='editBlogBarImg'></img>
               </a>
+
+              <a className='deletePostBtn' onClick={() => removePost(post.id)}>
+                <img src={DeletePost} alt='DeletePost' className='deleteBlogBarImg'></img>
+              </a>
+
               <div className='blogBarText'>
                 <h2 className='postHeading'>{post.heading}</h2>
                 <p className='postContents'>{post.contents}</p>
