@@ -10,6 +10,7 @@ import newAbout from "./components/newAbout/newAbout";
 import './app.css';
 import Blog from "./components/Blog/Blog";
 import BlogPost from "./components/BlogPost/BlogPost";
+import LoginForm from "./components/LoginForm/LoginForm";
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
         <BrowserRouter>
 
           <NavBar></NavBar>
-          {/* <NowPlaying></NowPlaying> */}
 
             <Routes>
 
@@ -45,9 +45,11 @@ function App() {
 
               {/* // http://localhost:3000/edit-post/1 */}
               <Route path='/edit-post/:id' element = {<BlogPost />}> </Route>
+
+              {/* // http://localhost:3000/login */}
+              <Route path='/login' element = {<LoginForm />}> </Route>
         
             </Routes>
-            {/* <NowPlaying></NowPlaying> */}
           <Footer></Footer>
         </BrowserRouter>
       </div>
