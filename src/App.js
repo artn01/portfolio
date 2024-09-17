@@ -6,7 +6,6 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import About from "./components/About/About";
 import Hobbies from "./components/Hobbies/Hobbies";
 import Contact from "./components/Contact/Contact";
-import newAbout from "./components/newAbout/newAbout";
 import './app.css';
 import Blog from "./components/Blog/Blog";
 import BlogPost from "./components/BlogPost/BlogPost";
