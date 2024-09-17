@@ -61,6 +61,12 @@
     flex-direction: row;
 }
 
+/* .nowPlaying {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} */
+
 .hobbyBarImg {
     object-fit: cover;
     height: 3rem;

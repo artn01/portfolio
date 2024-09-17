@@ -28,7 +28,9 @@ const Hobbies = () => {
                         <p>Below is the music I'm currently listening to :3</p>
                     </div>
                 </div>
-                <NowPlaying/>
+                <div className='nowPlaying'>
+                    <NowPlaying/>
+                </div>
             </div>
 
             <div className='hobbyBar'>

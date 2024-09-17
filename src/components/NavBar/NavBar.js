@@ -65,6 +65,10 @@ const Navbar = () => {
               Blog
             </a>
 
+            <a className='listItem' href='/contact'>
+              Contact me
+            </a>
+
             <a className='listItem' href='/login'>
               Login
             </a>
