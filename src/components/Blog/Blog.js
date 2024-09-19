@@ -40,6 +40,23 @@ const Blog = () => {
     })
   }
 
+  function timestampToDate(timestamp) {
+    const dateObject = new Date(timestamp);
+
+    // Format the date using toLocaleString with options for time zone, date, and time
+    const formattedDate = dateObject.toLocaleString('en-US', {
+      timeZoneName: 'short', // Display the time zone abbreviation
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric',
+      hour12: false // Use 24-hour format
+    })
+    return formattedDate;
+  }
+
 
   return (
     <section id='blog'>
@@ -59,7 +76,7 @@ const Blog = () => {
               <div className='blogBarText'>
                 <h2 className='postHeading'>{post.heading}</h2>
                 <p className='postContents'>{post.contents}</p>
-                <p className='postTimestamp'>{post.timestamp}</p>
+                <p className='postTimestamp'>Last Changed: {timestampToDate(post.timestamp)}</p>
                 <p className='postUsername'>Written by: {post.username}</p>
               </div>
             </div>

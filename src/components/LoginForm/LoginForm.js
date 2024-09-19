@@ -10,7 +10,7 @@ const LoginForm = () => {
   const [action, setAction] = useState("Sign Up")
 
   function pageTitle() {
-    if(id) {
+    if(true) {
         return <h2 className='loginTitle'>Log In</h2>
     } else {
       return <h2 className='signUpTitle'>Sign Up</h2>

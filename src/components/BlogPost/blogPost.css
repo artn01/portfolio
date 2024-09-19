@@ -52,7 +52,7 @@
     max-width: 60rem;
 }
 
-.username, .heading, .contents {
+.blogPostUsername, .heading, .contents {
     font-family: sans-serif;
     font-size: large;
     width: 100%;

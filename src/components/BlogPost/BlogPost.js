@@ -19,6 +19,7 @@ const BlogPost = () => {
         setUsername(response.data.username);
         setHeading(response.data.heading);
         setContents(response.data.contents);
+        setTimestamp(response.data.timestamp);
       }).catch(error => {
         console.error(error);
       })
@@ -37,8 +38,9 @@ const BlogPost = () => {
     console.log(errors)
     
     if (validateForm()) {
+      const timestamp = Date.now();
 
-      const post = {username, heading, contents}
+      const post = {username, heading, contents, timestamp}
       console.log(post)
 
       if(id) {
@@ -109,7 +111,7 @@ const BlogPost = () => {
         {pageTitle()}
         
         <form className='blogPostForm'>
-            <input type='text' className='username' placeholder='Username' name='username'
+            <input type='text' className='blogPostUsername' placeholder='Username' name='username'
               value={username} 
               onChange={(event) => setUsername(event.target.value)}></input>
               {errors.username && (
