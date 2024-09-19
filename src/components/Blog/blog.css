@@ -137,6 +137,18 @@
     margin-right: 2rem;
 }
 
+.postTimestamp {
+    margin-top: 1rem;
+}
+
+.postUsername {
+    margin-top: 0.25rem;
+}
+
+.postContents {
+    margin-top: 0.25rem;
+}
+
 @media screen and (max-width:720px) {
     .blogBarText>p {
         font-size: 2vw;
