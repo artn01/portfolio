@@ -71,7 +71,7 @@
     min-height: 2rem;
 }
 
-.loginFormSubmitBtn {
+.loginFormLoginBtn {
     /* background: white;
     border: none;
     border-radius: 0.5rem;
@@ -98,12 +98,30 @@
     cursor: pointer;
 }
 
-.loginFormSubmitBtn:hover {
+.signUpForgot {
+    display: flex;
+    gap: 2rem;
+}
+
+.loginFormSignUpBtn, .loginFormForgotBtn {
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: medium;
+    text-decoration: underline;
+}
+
+.loginFormLoginBtn:hover {
     color: white;
     box-shadow: 5px -5px 0 #00ddc0;
     /* transform: translateX(5px) translateY(5px); */
     background-color: rgb(30, 30, 30);
     transition: all 0.5s ease;
+}
+
+.loginFormSignUpBtn:hover, .loginFormForgotBtn:hover {
+    color: #0eeadf;
+    transition: all 1s ease;
 }
 
 .loginTitle, .signUpTitle {
