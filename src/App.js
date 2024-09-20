@@ -21,7 +21,7 @@ function App() {
             <Routes>
 
               {/* // http://localhost:3000/ */}
-              <Route path='/' element = {<Intro />}> </Route>
+              <Route exact path='/' element = {<Intro />}> </Route>
 
               {/* // http://localhost:3000/skills */}
               <Route path='/skills' element = {<Skills />}> </Route>
