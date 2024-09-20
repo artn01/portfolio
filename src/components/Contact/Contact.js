@@ -113,9 +113,9 @@ const Contact = () => {
 
             <button className='submitBtn' type='submit' value="Send">Submit</button>
             <div className='links'>
-                <a href=''>
+                {/* <a href=''>
                   <img className='link' src={FacebookIcon} alt='Facebook' href></img>
-                </a>
+                </a> */}
                 <a href='https://www.youtube.com/@batboi_7788' target='_blank'>
                   <img className='link' src={YouTube} alt='YouTube'></img>
                 </a>
