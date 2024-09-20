@@ -1,5 +1,5 @@
-import React, { useRef, useState } from 'react'
-import './contact.css'
+import React, { useRef, useState } from 'react';
+import './contact.css';
 import FacebookIcon from '../../assets/facebook-icon.png';
 import YouTube from '../../assets/youtube.png';
 import emailjs from '@emailjs/browser';
