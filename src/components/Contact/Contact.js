@@ -32,8 +32,8 @@ const Contact = () => {
 
     if (!data.from_name.trim()) {
         errors.from_name = 'Username is required';
-    } else if (data.from_name.length < 1) {
-        errors.from_name = 'Username must be at least 1 characters long';
+    } else if ((data.from_name.length < 1) || (data.from_name.length > 100)) {
+        errors.from_name = 'Username must be between 1 and 100 characters long';
     }
 
     if (!data.from_email.trim()) {
@@ -44,8 +44,8 @@ const Contact = () => {
 
     if (!data.message) {
         errors.message = 'Message is required';
-    } else if (data.message.length < 1) {
-        errors.message = 'Message must be at least 1 characters long';
+    } else if ((data.message.length < 1) || (data.message.length > 500)) {
+        errors.message = 'Message must be between 1 and 500 characters long';
     }
 
     return errors;
