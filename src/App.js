@@ -37,13 +37,13 @@ function App() {
               <Route path='/contact' element = {<Contact />}> </Route>
 
               {/* // http://localhost:3000/blog */}
-              <Route path='/blog' element = {<Blog />}> </Route>
+              {/* <Route path='/blog' element = {<Blog />}> </Route> */}
 
               {/* // http://localhost:3000/add-post */}
-              <Route path='/add-post' element = {<BlogPost />}> </Route>
+              {/* <Route path='/add-post' element = {<BlogPost />}> </Route> */}
 
               {/* // http://localhost:3000/edit-post/1 */}
-              <Route path='/edit-post/:id' element = {<BlogPost />}> </Route>
+              {/* <Route path='/edit-post/:id' element = {<BlogPost />}> </Route> */}
 
               {/* // http://localhost:3000/login */}
               <Route path='/login' element = {<LoginForm />}> </Route>

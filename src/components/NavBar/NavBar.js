@@ -34,13 +34,13 @@ const Navbar = () => {
             Hobbies
           </a>
 
-          <a className='desktopMenuListItemA' href='/blog'>
+          {/* <a className='desktopMenuListItemA' href='/blog'>
             Blog
           </a>
 
           <a className='desktopMenuListItemA' href='/login'>
             Login
-          </a>
+          </a> */}
 
         </div>
         <a className="desktopMenuBtn" href="/contact">
@@ -61,17 +61,17 @@ const Navbar = () => {
               Hobbies
             </a>
 
-            <a className='listItem' href='/blog'>
+            {/* <a className='listItem' href='/blog'>
               Blog
-            </a>
+            </a> */}
 
             <a className='listItem' href='/contact'>
               Contact me
             </a>
 
-            <a className='listItem' href='/login'>
+            {/* <a className='listItem' href='/login'>
               Login
-            </a>
+            </a> */}
 
           {/* <Link className="listItem"
                 onClick={() => setShowMenu(false)}
