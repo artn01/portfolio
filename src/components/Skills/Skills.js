@@ -1,5 +1,5 @@
 import React from 'react';
-import './skills.css';
+import '../../components/Skills/skills.css';
 import Languages from '../../assets/languages.png';
 import WebDev from '../../assets/web_dev.png';
 import SoftSkills from '../../assets/soft_skills.png';
