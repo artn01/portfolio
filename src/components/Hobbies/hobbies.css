@@ -9,7 +9,6 @@
     text-align: center;
     margin: 0 auto;
     margin-bottom: 4rem;
-    overflow-x: scroll;
 }
 
 .hobbiesTitle {
@@ -139,6 +138,9 @@
 }
 
 @media screen and (max-width:320px) {
+    #hobbies {
+        overflow-x: scroll;
+    }
     .hobbiesBars{
         margin-right: 2.5rem;
     }
