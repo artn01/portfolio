@@ -9,6 +9,7 @@
     text-align: center;
     margin: 0 auto;
     margin-bottom: 4rem;
+    overflow-x: scroll;
 }
 
 .hobbiesTitle {
