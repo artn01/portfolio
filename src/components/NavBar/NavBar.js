@@ -22,15 +22,15 @@ const Navbar = () => {
                 offset={-100} 
                 duration={500}>Home</Link> */}
 
-          <a className='desktopMenuListItemA' href='skills'>
+          <a className='desktopMenuListItemA' href='/skills'>
             Skills
           </a>
 
-          <a className='desktopMenuListItemA' href='about'>
+          <a className='desktopMenuListItemA' href='/about'>
             About
           </a>
 
-          <a className='desktopMenuListItemA' href='hobbies'>
+          <a className='desktopMenuListItemA' href='/hobbies'>
             Hobbies
           </a>
 

@@ -24,17 +24,17 @@ function App() {
               <Route path='/' element = {<Intro />}> </Route>
 
               {/* // http://localhost:3000/skills */}
-              <Route path='skills' element = {<Skills />}> </Route>
+              <Route path='/skills' element = {<Skills />}> </Route>
 
               {/* // http://localhost:3000/about */}
               {/* <Route path='/about' element = {<newAbout />}> </Route> */}
-              <Route path="about" element = {<About/>}></Route>
+              <Route path="/about" element = {<About/>}></Route>
 
               {/* // http://localhost:3000/hobbies */}
-              <Route path='hobbies' element = {<Hobbies />}> </Route>
+              <Route path='/hobbies' element = {<Hobbies />}> </Route>
 
               {/* // http://localhost:3000/contact */}
-              <Route path='contact' element = {<Contact />}> </Route>
+              <Route path='/contact' element = {<Contact />}> </Route>
 
               {/* // http://localhost:3000/blog */}
               {/* <Route path='/blog' element = {<Blog />}> </Route> */}
