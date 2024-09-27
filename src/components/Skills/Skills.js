@@ -16,7 +16,7 @@ const Skills = () => {
                 <img src={WebDev} alt='Web Development' className='skillBarImg'></img>
                 <div className='skillBarText'>
                     <h2>Web Development</h2>
-                    <p>I have experience with Java, Spring Boot, React, HTML and CSS.</p>
+                    <p>I have experience with Java, Python, Spring Boot, React, HTML and CSS.</p>
                 </div>
             </div>
 

@@ -66,7 +66,7 @@ const Hobbies = () => {
                 </div>
             </div>
 
-            <div className='hobbyBar'>
+            {/* <div className='hobbyBar'>
                 <img src={Anime} alt='Anime' className='hobbyBarImg'></img>
                 <div className='hobbyBarText'>
                     <h2>Anime</h2>
@@ -74,7 +74,7 @@ const Hobbies = () => {
                         but for me it became a breath of fresh in highschool, and I still watch it sometimes. <a className='malLink' href='https://myanimelist.net/animelist/batboi_' target='_blank'>MyAnimeList</a>
                     </p>
                 </div>
-            </div>
+            </div> */}
 
             <div className='hobbyBar'>
                 <img src={Collecting} alt='Collecting Things' className='hobbyBarImg'></img>
