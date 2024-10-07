@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import bg from '../../assets/graduation_cut_no_bg.png'
+import bg from '../../assets/profile.png'
 const About = () => {
   return (
     <section id='about'>

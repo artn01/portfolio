@@ -144,4 +144,16 @@
     width: 100%;
   }
 
+  @media screen and (max-width:320px) {
+    .nowPlayingCard {
+      width: 19rem;
+    }
+}  
+
+@media screen and (max-width:480px) {
+  .nowPlayingCard {
+    width: 19.5rem;
+  }
+}  
+
   
