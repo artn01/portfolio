@@ -25,15 +25,22 @@
 
 .bg {
   position: absolute;
-  top: 7rem;
+  /* object-position: center; */
+  top: 10;
   right: 0;
   object-fit: cover;
   z-index: -1;
   height: 25rem;
   width: 25rem;
+  /* height: auto; */
+  /* max-width: 25rem;
+  max-height: 25rem; */
   border-radius: 2rem;
   object-position: top center;
   border-radius: 50%;
+
+  /* width: 25rem;
+  max-width: 35vw; */
 
   /* object-fit: cover;
   object-position: top center;
@@ -195,9 +202,10 @@
   }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:320px){
   .bg {
-    /* right: -20vw; */
+    height: 15rem;
+    width: 15rem;
   }
 }
 
@@ -209,7 +217,23 @@
   .bg {
     display: block;
     position: relative;
-    margin-top: -6rem;
-    margin-bottom: 6rem;
+    /* margin-top: -10rem;
+    margin-bottom: 10rem; */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  
+  .bg {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  
+  .bg {
+    width: 17rem;
+    height: 17rem;
   }
 }
