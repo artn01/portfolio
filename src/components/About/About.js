@@ -5,6 +5,7 @@ const About = () => {
   return (
     <section id='about'>
         <div className="aboutContent">
+        <img src={bg} alt="Profile" className="bg" />
             <span className="hello">Hello! </span>
             <span className="aboutText">I am <span className="aboutName">Artjom</span>,<br />Junior Software Developer</span>
             <div className='aboutDiv'> 
@@ -54,7 +55,6 @@ const About = () => {
 
             {/* <a className="btn"><img src={btnImg} alt="HIRE ME" className='btnImg'/>Hire Me</a> */}
         </div>
-        <img src={bg} alt="Profile" className="bg" />
     </section>
   );
 }
