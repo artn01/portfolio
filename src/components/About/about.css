@@ -27,7 +27,7 @@
   position: absolute;
   /* object-position: center; */
   top: 10;
-  right: 0;
+  right: 2rem;
   object-fit: cover;
   z-index: -1;
   height: 25rem;
@@ -215,6 +215,7 @@
   }
   
   .bg {
+    right: 0;
     display: block;
     position: relative;
     /* margin-top: -10rem;
