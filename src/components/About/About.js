@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
-import bg from '../../assets/profile.png'
+// import bg from '../../assets/profile.png'
+import bg from '../../assets/work_photo_1.jpg'
 const About = () => {
   return (
     <section id='about'>
@@ -11,6 +12,13 @@ const About = () => {
             <div className='aboutDiv'> 
             
                 <ul className='timeline'>
+                  <li className='entry'>
+                    <span className="year">2024 - present</span>
+                    <p className='entryPara'>
+                      Full-Stack Developer at <a className='redirectLink' href="https://www.wisercat.com/index.html" target='_blank'>Wisercat Software OÜ</a>
+                    </p>
+                  </li>
+
                   <li className='entry'>
                     <span className="year">2024 - present</span>
                     <p className='entryPara'>
@@ -25,7 +33,7 @@ const About = () => {
                       Student at Tallinn University of Technology (TalTech), School of Information Technologies, 
                       <span className='faculty'> Informatics</span> (Bachelor of Science in Engineering)
                       
-                      <p className='thesisPara'><a className='thesisLink' href="https://digikogu.taltech.ee/et/Item/f193724a-684d-4ccb-a349-4573a139bbe9" target="_blank">
+                      <p className='thesisPara'><a className='thesisLink' href="https://digikogu.taltech.ee/en/Item/f193724a-684d-4ccb-a349-4573a139bbe9" target="_blank">
                       Bachelor's thesis:</a> “Object mapping application for motion registration system”</p>
                         <ul className='thesis'>
                           

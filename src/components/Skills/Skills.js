@@ -4,6 +4,7 @@ import Languages from '../../assets/languages.png';
 import WebDev from '../../assets/web_dev.png';
 import SoftSkills from '../../assets/soft_skills.png';
 import UiUx from '../../assets/ui_ux.png';
+import DevOps from '../../assets/dev_ops.png';
 
 const Skills = () => {
   return (
@@ -16,7 +17,15 @@ const Skills = () => {
                 <img src={WebDev} alt='Web Development' className='skillBarImg'></img>
                 <div className='skillBarText'>
                     <h2>Web Development</h2>
-                    <p>I have experience with Java, Python, Spring Boot, React, HTML and CSS.</p>
+                    <p>I have experience with Java, Python, Spring Boot, React, Angular, ExtJS, HTML and CSS.</p>
+                </div>
+            </div>
+
+            <div className='skillBar'>
+                <img src={DevOps} alt='DevOps' className='skillBarImg'></img>
+                <div className='skillBarText'>
+                    <h2>DevOps</h2>
+                    <p>I have some experience with Docker, Amazon Web Services, Gradle.</p>
                 </div>
             </div>
 

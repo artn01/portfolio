@@ -5,7 +5,7 @@ import NowPlaying from '../NowPlaying/NowPlaying';
 const Footer = () => {
   return (
     <footer className='footer'>
-        All rights reserved by batboi_.
+        Made by Artjom Nikokoshev
         {/* <NowPlaying></NowPlaying> */}
     </footer>
   );

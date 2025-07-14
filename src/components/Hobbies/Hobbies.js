@@ -48,8 +48,7 @@ const Hobbies = () => {
                 <div className='hobbyBarText'>
                     <h2>Sports</h2>
                     <p>Sports, sports, sports. I used to do ice-dance semi-professionally, but in the 
-                        end left it to pursue academic goals. I like playing volleyball, but lately I don't really
-                        have much time to do it.
+                        end left it to pursue academic goals. I like playing volleyball, and going on bicycle rides.
                     </p>
                 </div>
             </div>
@@ -58,10 +57,7 @@ const Hobbies = () => {
                 <img src={Reading} alt='Reading' className='hobbyBarImg'></img>
                 <div className='hobbyBarText'>
                     <h2>Reading</h2>
-                    <p>I used to love reading as a kid. But then, I stopped reading almost completely.
-                        But lately my girlfriend motivated me to read again. Most of all I enjoy reading 
-                        something kind of philosophical, and preferrably the main character has to be of my own age.
-                        That way, I can relate to the book more. I also prefer Japanese authors, such as Haruki Murakami.
+                    <p>In my free time, I enjoy reading - it is quite relaxing. And I can also bond with my girlfriend by having fierce debates over the books we have read.
                     </p>
                 </div>
             </div>
