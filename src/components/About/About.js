@@ -23,7 +23,7 @@ const About = () => {
                     <span className="year">2024 - present</span>
                     <p className='entryPara'>
                       Student at Tallinn University of Technology (TalTech), School of Information Technologies, 
-                      <span className='faculty'> Digital Health</span> (Master of Science in Engineering)
+                      <span className='faculty'> Digital Health</span> (Master of Science in Engineering), currently on academic leave
                     </p>
                   </li>
 
