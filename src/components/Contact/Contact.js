@@ -3,6 +3,7 @@ import './contact.css';
 import FacebookIcon from '../../assets/facebook-icon.png';
 import YouTube from '../../assets/youtube.png';
 import emailjs from '@emailjs/browser';
+import linkedIn from '../../assets/linkedIn.png';
 
 const Contact = () => {
   const form = useRef();
@@ -116,9 +117,12 @@ const Contact = () => {
                 {/* <a href=''>
                   <img className='link' src={FacebookIcon} alt='Facebook' href></img>
                 </a> */}
-                <a href='https://www.youtube.com/@batboi_7788' target='_blank'>
+                {/* <a href='https://www.youtube.com/@batboi_7788' target='_blank'>
                   <img className='link' src={YouTube} alt='YouTube'></img>
-                </a>
+                </a> */}
+                {<a href='https://www.linkedin.com/in/artjom-nikokosev-146108256/' target='_blank'>
+                  <img className='link' src={linkedIn} alt='linkedIn'></img>
+                </a>}
             </div>
         </form>
     </div>
