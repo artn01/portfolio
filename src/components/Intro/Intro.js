@@ -1,5 +1,6 @@
 import React from 'react'
 import './intro.css'
+import AuthContent from '../Auth/AuthContent';
 
 
 const Intro = () => {

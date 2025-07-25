@@ -10,6 +10,7 @@ import './app.css';
 import Blog from "./components/Blog/Blog";
 import BlogPost from "./components/BlogPost/BlogPost";
 import LoginForm from "./components/LoginForm/LoginForm";
+import AuthContent from "./components/Auth/AuthContent";
 
 function App() {
   return (
@@ -37,16 +38,19 @@ function App() {
               <Route path='/contact' element = {<Contact />}> </Route>
 
               {/* // http://localhost:3000/blog */}
-              {/* <Route path='/blog' element = {<Blog />}> </Route> */}
+              <Route path='/blog' element = {<Blog />}> </Route>
 
               {/* // http://localhost:3000/add-post */}
-              {/* <Route path='/add-post' element = {<BlogPost />}> </Route> */}
+              <Route path='/add-post' element = {<BlogPost />}> </Route>
 
               {/* // http://localhost:3000/edit-post/1 */}
-              {/* <Route path='/edit-post/:id' element = {<BlogPost />}> </Route> */}
+              <Route path='/edit-post/:id' element = {<BlogPost />}> </Route>
 
               {/* // http://localhost:3000/login */}
               <Route path='/login' element = {<LoginForm />}> </Route>
+
+              {/* // http://localhost:3000/messages */}
+              <Route path='/messages' element = {<AuthContent />}> </Route>
         
             </Routes>
           <Footer></Footer>
